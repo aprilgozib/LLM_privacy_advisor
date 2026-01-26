@@ -1,0 +1,14 @@
+{
+  "scenario_id": "ML-002",
+  "domain": "Healthcare",
+  "workflow": {
+    "step_1_collection": "사용자의 스마트 워치로부터 심박수 및 수면 패턴 수집",
+    "step_2_processing": "비식별화 조치 없이 모델 학습용 DB에 저장",
+    "step_3_modeling": "딥러닝 기반 질병 예측 모델 생성",
+    "step_4_deployment": "병원의 로컬 서버가 아닌 외부 써드파티 서버에 배포"
+  },
+  "known_risks": [
+    "GDPR Article 9 (Special categories of data)",
+    "EU AI Act High-risk category (Health and life insurance)"
+  ]
+}
